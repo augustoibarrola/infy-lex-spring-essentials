@@ -8,7 +8,6 @@ import com.infy.config.SpringConfig;
 public class UserInterface {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		ApplicationContext applicationContext = new AnnotationConfigApplicationContext(SpringConfig.class);
 		Customer customer = applicationContext.getBean(Customer.class);
