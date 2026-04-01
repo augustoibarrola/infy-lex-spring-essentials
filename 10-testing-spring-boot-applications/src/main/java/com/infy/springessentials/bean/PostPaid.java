@@ -1,8 +1,8 @@
-package com.infy.bean;
+package com.infy.springessentials.bean;
 
 import org.springframework.stereotype.Component;
 
-@Component(value = "postPaid")
+@Component(value = "*postPaid")
 public class PostPaid implements Plan {
 	
 	@Override

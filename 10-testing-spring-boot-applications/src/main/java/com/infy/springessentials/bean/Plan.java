@@ -1,4 +1,4 @@
-package com.infy.bean;
+package com.infy.springessentials.bean;
 
 public interface Plan {
 	
