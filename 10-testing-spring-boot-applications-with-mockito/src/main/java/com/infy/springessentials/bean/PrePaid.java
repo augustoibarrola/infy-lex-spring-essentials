@@ -2,12 +2,12 @@ package com.infy.springessentials.bean;
 
 import org.springframework.stereotype.Component;
 
-@Component(value = "postPaid")
-public class PostPaid implements Plan {
-	
+@Component(value = "prePaid")
+public class PrePaid implements Plan {
+
 	@Override
 	public Boolean enrollToPlan(String planName) {
-		return ((planName == "POSTPAID")? true : false);
+		return ((planName == "PREPAID")? true : false);
 	}
 
 }
