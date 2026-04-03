@@ -26,8 +26,8 @@ class ApplicationTests {
 	@Test
 	public void registerTestValidPlan() throws Exception{
 		String planName = "PREPAID";
-		Mockito.when(plan.enrollToPlan("PREPAID")).thenReturn(true);
-		String actual = customer.register("PREPAID");
+		Mockito.when(plan.enrollToPlan(planName)).thenReturn(true);
+		String actual = customer.register(planName);
 		Assertions.assertEquals("Customer enrolled to Plan" , actual);
 	}
 	
